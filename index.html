@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="slide1">
+					
+					<p>Versionssysteme</p>
+						<img class="titelbild" src="OIP.jpg"/>
+					<div class="authors">
+						<p>Annie Fasching</p>
+						<p>Dino Dzinic</p>
+					</div>
+				</section>
+				<section>
+					<section>
+						<h2>Hauptaufgaben</h2>
+						<ul>
+						<li>Protokollierung</li>
+						<li>Wiederherstellung</li>
+						<li>Archivierung</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Arten von Versionssystemen</h2>
+						<ul>
+							<li>Lokale Versionsverwaltung</li>
+							<li>Zentrale Versionsverwaltung</li>
+							<li>Verteilte Versionsverwaltung</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<div>
+							<h2>Belibtestes Versionverwaltungssystem</h2>
+							<ul>
+								<li><a href="www.github.com">www.github.com</a></li>
+								<li>Sitz: USA</li>
+								<li>Betreiber: Microsoft (seit 2018)</li>
+								<li>Benutzer: 83 Milionen</li>
+								<li>Über 200 Millionen Repositories (stand 2022)</li>
+							</ul>
+						</div>						
+					</section>
+					<section>
+						<img src="reposcreen.png"/>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Branching</h2>
+					</section>
+					<section>
+						<h2>Pull-Requests</h2>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

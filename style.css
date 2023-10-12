@@ -1,0 +1,30 @@
+/* Center the slide content */
+.slide1{
+    font-family: Consolas, Menlo, 'Courier New', monospace;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+/* Author's name in the right corner */
+.authors {
+    font-family: Consolas, Menlo, 'Courier New', monospace;
+    font-size: 30px;
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.info-table {
+    font-size: 30px;
+}
+
+.titelbild {
+    width: 350px;
+    height: auto;
+}

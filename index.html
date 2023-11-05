@@ -71,7 +71,8 @@
           <section>
             <img class="logo" src="elto.png" />
             <a href="https://github.com/dzinic001/git_revealjs"
-              >https://github.com/dzinic001/git_revealjs</a>
+              >https://github.com/dzinic001/git_revealjs</a
+            >
           </section>
         </section>
         <section>
@@ -84,14 +85,77 @@
           </section>
           <section>
             <h2>Erste Schritte</h2>
-              <img class="Example1" src="FirstSteps.png" />
+            <img class="Example1" src="FirstSteps.png" />
           </section>
         </section>
         <section style="height: 100vh">
-          <!-- <section
-            data-background-iframe="https://learngitbranching.js.org/?NODEMO"
-            data-background-interactive
-          ></section> -->
+          <section>
+            <h2>Branching</h2>
+            <div style="display: flex">
+              <img src="branching.png" alt="tree nodes" />
+              <div
+                style="
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-items: center;
+                  justify-content: center;
+                "
+              >
+                <pre class="bash" style="max-width: max-content">
+                <code data-trim data-noescape>
+                  $ git branch
+                </code>
+              </pre>
+                <pre class="bash" style="max-width: max-content">
+                      <code data-trim data-noescape>
+                        $ git switch
+                      </code>
+                    </pre>
+                <pre class="bash" style="max-width: max-content">
+                      <code data-trim data-noescape>
+                        $ git commit
+                      </code>
+                    </pre>
+                <pre class="bash" style="max-width: max-content">
+                      <code data-trim data-noescape>
+                        $ git merge
+                      </code>
+                    </pre>
+              </div>
+            </div>
+            <!-- <p>
+              <a
+                target="_blank"
+                href="https://github.com/dzinic001/git_revealjs/branches"
+                >GitHub Branches</a
+              >
+            </p> -->
+          </section>
+          <section>
+            <h2>Ablauf</h2>
+            <ul>
+              <li>Repository klonen</li>
+              <li>Themenbranch erstellen</li>
+              <li>Änderungen vornehmen</li>
+              <li>Commit(s)</li>
+              <li>Push</li>
+              <li>Pull Request</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Pull Request</h2>
+            <p>
+              informiert über die Veränderungen am Code und gibt sie zur Review
+              frei
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/dzinic001/git_revealjs/pulls"
+              >GitHub Pull Requests</a
+            >
+          </section>
           <section>
             <figure>
               <iframe
@@ -107,31 +171,6 @@
               </figcaption>
             </figure>
           </section>
-          <section>
-            <p style="text-align: left">lokale Kopie erstellen</p>
-            <pre class="bash">
-              <code data-trim>
-                $ git clone git@github.com:dzinic001/git_revealjs.git
-              </code>
-            </pre>
-          </section>
-          <section>
-            <p style="text-align: left">
-              neuen Branch erstellen und darauf wechseln
-            </p>
-            <pre class="bash">
-              <code data-trim data-noescape>
-                $ git switch -c {NEW_BRANCH_NAME}
-              </code>
-            </pre>
-            <p style="text-align: left">kurz für:</p>
-            <pre class="bash">
-              <code data-trim data-noescape>
-                $ git branch {NEW_BRANCH_NAME}
-                $ git switch {NEW_BRANCH_NAME}
-              </code>
-            </pre>
-          </section>
         </section>
         <section>
           <h2>Danke für die Aufmerksamkeit!</h2>
@@ -139,36 +178,67 @@
         <section>
           <h2>Quellen</h2>
           <div class="quellen">
-            <ul>
+            <ul
+              style="
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+              "
+            >
               <li>
-                <a href="https://de.wikipedia.org/wiki/GitHub"
-                  >https://de.wikipedia.org/wiki/GitHub</a
-                >
-              </li>
-              <li>
+                Wikipedia-Autoren. (2023, 22. Oktober). GitHub. In Wikipedia –
+                Die freie Enzyklopädie.
                 <a
-                  href="https://git-scm.com/book/de/v2/Git-Branching-Einfaches-Branching-und-Merging"
-                  >https://git-scm.com/book/de/v2/Git-Branching-Einfaches-Branching-und-Merging</a
+                  href="https://de.wikipedia.org/w/index.php?title=GitHub&oldid=238396332"
+                  >https://de.wikipedia.org/w/index.php?title=GitHub&oldid=238396332</a
                 >
               </li>
               <li>
+                Senarclens de Grancy, G. (n.d.) Git. In: DVC.
                 <a
                   href="https://www.senarclens.eu/~gerald/presentations/dvc/#(6)"
                   >https://www.senarclens.eu/~gerald/presentations/dvc/#(6)</a
                 >
               </li>
               <li>
-                <a href="https://de.wikipedia.org/wiki/Versionsverwaltung"
-                  >https://de.wikipedia.org/wiki/Versionsverwaltung</a
+                Wikipedia-Autoren. (2022, 24. September). Versionsverwaltung. In
+                Wikipedia – Die freie Enzyklopädie.
+                <a
+                  href="https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=226425173"
+                  >https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=226425173</a
                 >
               </li>
               <li>
                 <a href="https://docs.github.com">https://docs.github.com</a>
               </li>
-              <li><a href="">-</a></li>
-              <li><a href="">-</a></li>
-              <li><a href="">-</a></li>
-              <li><a href="">-</a></li>
+              <li>
+                Cottle, P. (2023). learnGitBranching. Github.
+                <a href="https://github.com/pcottle/learnGitBranching"
+                  >https://github.com/pcottle/learnGitBranching</a
+                >
+              </li>
+              <li>
+                Chacon, S., & Straub, B. (2014). 3.2 Git Branching - Einfaches
+                Branching und Merging. In Pro Git. Apress.<a
+                  href="https://git-scm.com/book/de/v2/Git-Branching-Einfaches-Branching-und-Merging"
+                  >https://git-scm.com/book/de/v2/Git-Branching-Einfaches-Branching-und-Merging</a
+                >
+              </li>
+              <li>
+                Chacon, S., & Straub, B. (2014). 6.2 GitHub - Mitwirken an einem
+                Projekt. In Pro Git. Apress.<a
+                  href="https://git-scm.com/book/de/v2/GitHub-Mitwirken-an-einem-Projekt"
+                  >https://git-scm.com/book/de/v2/GitHub-Mitwirken-an-einem-Projekt</a
+                >
+              </li>
+              <li>
+                About Pull Requests. (n.d.). GitHub Docs.
+                <a
+                  href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"
+                  >https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -185,6 +255,8 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        slideNumber: true,
+        slideNumber: 'c/t',
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],

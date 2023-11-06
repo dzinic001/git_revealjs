@@ -56,6 +56,14 @@
 
 ## <img src="set-upstream.png">
 
+### Code Collaboration
+
+## <img src="featurebranch.png">
+
+**Main:** stabiler Code, deployable
+
+**Branch:** alles was Main verändert
+
 ### Pull Request
 
 informiert über die Veränderungen, die im Code vorgenommen worden sind und gibt sie zur Review frei. Weitere Commits können zu einem Pull Request hinzugefügt werden bevor die Änderungen in den Base Branch übernommen werden.
@@ -101,8 +109,12 @@ Ein Pull Request auf Github umfasst unter anderem:
                   >https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=226425173</a
                 >
               </li>
-              <li>
-                <a href="https://docs.github.com">https://docs.github.com</a>
+             <li>
+                Confreaks. (2012, Jänner 18). How GitHub Uses GitHub to Build
+                GitHub by Zach Holman [Video]. YouTube.
+                <a href="https://youtu.be/qyz3jkOBbQY?si=iXhgmaJH9qAvB0Kl"
+                  >https://youtu.be/qyz3jkOBbQY?si=iXhgmaJH9qAvB0Kl</a
+                >
               </li>
               <li>
                 Cottle, P. (2023). learnGitBranching. Github.

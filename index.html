@@ -90,71 +90,58 @@
         </section>
         <section style="height: 100vh">
           <section>
+            <h2>Collaborating</h2>
+            <h4 class="fragment">...but how?</h4>
+          </section>
+          <section>
+            <img src="featurebranch.png" />
+          </section>
+          <section>
             <h2>Ablauf</h2>
-            <ul>
-              <li>Repository klonen</li>
-              <li>Themenbranch erstellen</li>
-              <li>Änderungen vornehmen</li>
-              <li>Commit(s)</li>
-              <li>Push</li>
-              <li>Pull Request</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Pull Request</h2>
-            <p>
-              informiert über die Veranderungen am Code und gibt sie zur Review
-              frei
-            </p>
-            <a
-              target="_blank"
-              href="https://github.com/dzinic001/git_revealjs/pulls"
-              >GitHub Pull Requests</a
+            <div
+              style="
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-items: center;
+                justify-content: center;
+              "
             >
-          </section>
-          <section>
-            <h2>Branching</h2>
-            <div style="display: flex">
-              <img src="branching.png" alt="tree nodes" />
-              <div
-                style="
-                  width: 100%;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  justify-items: center;
-                  justify-content: center;
-                "
-              >
-                <pre class="bash" style="max-width: max-content">
+              <pre class="bash" style="max-width: max-content">
                 <code data-trim data-noescape>
-                  $ git branch
+                  $ git clone
                 </code>
               </pre>
-                <pre class="bash" style="max-width: max-content">
+              <pre class="bash" style="max-width: max-content">
                       <code data-trim data-noescape>
-                        $ git switch
+                        $ git switch -c {BRANCH_NAME}
                       </code>
                     </pre>
-                <pre class="bash" style="max-width: max-content">
+              <pre class="bash" style="max-width: max-content">
                       <code data-trim data-noescape>
-                        $ git commit
+                        $ git add {DIRECTORY/FILE(S)}
                       </code>
                     </pre>
-                <pre class="bash" style="max-width: max-content">
+              <pre class="bash" style="max-width: max-content">
                       <code data-trim data-noescape>
-                        $ git merge
+                        $ git commit -m {MESSAGE}
                       </code>
                     </pre>
-              </div>
+              <pre class="bash" style="max-width: max-content">
+                      <code data-trim data-noescape>
+                        $ git push -u origin {BRANCH_NAME}
+                      </code>
+                    </pre>
             </div>
-            <!-- <p>
-              <a
-                target="_blank"
-                href="https://github.com/dzinic001/git_revealjs/branches"
-                >GitHub Branches</a
-              >
-            </p> -->
+          </section>
+          <section>
+            <h2>Pull Requests</h2>
+            <p>
+              informieren über die Veranderungen am Code und geben sie zur
+              Review frei
+            </p>
+            <h4 class="fragment">Pull Requests = Discussions</h4>
           </section>
           <section>
             <figure>
@@ -210,7 +197,11 @@
                 >
               </li>
               <li>
-                <a href="https://docs.github.com">https://docs.github.com</a>
+                Confreaks. (2012, Jänner 18). How GitHub Uses GitHub to Build
+                GitHub by Zach Holman [Video]. YouTube.
+                <a href="https://youtu.be/qyz3jkOBbQY?si=iXhgmaJH9qAvB0Kl"
+                  >https://youtu.be/qyz3jkOBbQY?si=iXhgmaJH9qAvB0Kl</a
+                >
               </li>
               <li>
                 Cottle, P. (2023). learnGitBranching. Github.
